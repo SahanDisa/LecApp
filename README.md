@@ -1,16 +1,26 @@
-# flutter_app2
+# LecApp
+An app that automatically makes lecture note material on speech input.
 
-A new Flutter application.
+## Feature 0
+Records the lecture and identifies key terms then maps them with web results of the subject making an easy reference for the user.
 
-## Getting Started
+## Feature 1
+Speech to text and based on the string we get we choose the keywords from the community dictionary.
 
-This project is a starting point for a Flutter application.
+- dictionary is made from sections 
+   - sections have another set of sub sections for each word
+- string search(naive search is better I guess)
 
-A few resources to get you started if this is your first Flutter project:
+## Feature 2
+Notifications for study the missing lectures and Base on the Recorded Lectures create a Evaluation at the end of reading the note
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- By creating Quiz set for each category 
+      - e.g :- C language evaluation after the recording the C lecture
+      
+## Feature 3 (Non-Crucial)
+A To-do list is important to make yourself get in touch with studies
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   - To do section create by adding the study time/lecture time/ 
+   - It may compare with our extra curricular activities whether the this lecture miss or not
+   - That very important when it comes for busy scheduling
+      - it will automatically ask us it needs to record the session or not
