@@ -1,5 +1,5 @@
 # LecApp
-An app that automatically makes lecture note material on speech input.
+An app that automatically makes lecture note materials on speech input using speech recognition and integrate subject materials using a machine learning module
 
 ## Feature 0
 Records the lecture and identifies key terms then maps them with web results of the subject making an easy reference for the user.
